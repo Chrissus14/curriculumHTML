@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educacion</title>
+</head>
+<body>
+    <header>
+        <svg width="200px" heigth="200px" viewbox="0 0 100 100">
+            <image width="80px" heigth="80px" xlink:href="../img/logotipo.svg"></image>
+        </svg>
+        <h1>Curriculum Vitae</h1>
+        <h2>Gómez Murillo Christian de Jesús</h2>
+        <h3>
+            Fecha de nacimiento: 14 - marzo - 1989 <br>
+            Lugar de nacimiento: Veracruz, México
+        </h3>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../html/educacion.html">Educacion</a></li>
+                <li><a href="../html/experiencia.html">Experiencia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Educación</h2>
+        <table border="1", cellpadding="10", cellspacing="0" id="tabla de educacion"> 
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2015 -2016</td>
+                    <td>The Institute</td>
+                    <td>Veracruz</td>
+                    <td>Culminado</td>
+                </tr>
+                <tr>
+                    <td>2011-2014</td>
+                    <td>Universidad Mexicana Campus Veracruz</td>
+                    <td>Veracruz</td>
+                    <td>Titulado</td>
+                </tr>
+                <tr>
+                    <td>2009 - 2010</td>
+                    <td>Instituto Tecnologico de Veracruz</td>
+                    <td>Veracruz</td>
+                    <td>4 semestres</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#menu">Volver al menu</a>
+        <form autocomplete="on" name="formulario">
+            <fieldset>
+                <legend>Agregar estudios</legend>
+                <label for="año">Año:</label>
+                <select name="año" id="año">
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                </select> <br>
+                <label for="institucion">Institución:</label>
+                <input type="text" name="institucion" id="institucion" required><br>
+                <label for="lugar">Lugar:</label>
+                <textarea name="area" cols="40" rows="3"></textarea><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+        <a href="#menu">Volver al menu</a>
+    </section>
+    <footer>
+        <p>correo:cjgm14@gmail.com telefono:2291451795</p> 
+    </footer>
+</body>
+</html>
